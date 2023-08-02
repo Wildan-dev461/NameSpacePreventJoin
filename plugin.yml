@@ -1,4 +1,4 @@
-name: NameSpacePreventJoin
+name: NoSpace
 api: 5.0.0
 main: Wildan\NoSpace\Main
 version: 1.0.0
