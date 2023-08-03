@@ -21,7 +21,7 @@ class Main extends PluginBase implements Listener {
         $playerName = $player->getName();
 
         if (strpos($playerName, " ") !== false) {
-            $player->kick(TextFormat::RED . "Namamu mengandung spasi harap diganti untuk memasuki server, terima kasih");
+            $player->kick(TextFormat::RED . "Your name is contain space, please change it before login again!");
         }
     }
 }
