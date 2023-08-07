@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Wildan/NoSpace;
+namespace Wildan\NoSpace;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
