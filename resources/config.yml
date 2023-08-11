@@ -1,15 +1,13 @@
-# Choose a mode: true to replace spaces with underscores, false to kick or ban players with spaces in their names
-replace-spaces: false
-
-# Choose a player to be banned or kicked when login server with name contains space
+# Choose whether to use ban mode for players with spaces in their names
 ban-mode: false
 
-# The message display when kicking player
+# The message displayed when kicking player
 # Use '&' for color instead of '§'
 kick-message: "&cYour name contains spaces, please change it before logging in again!"
 
-# The message display when banning player
+# The message displayed when banning player
+# Use '&' for color instead of '§'
 ban-message: "Your name contains spaces, you can't play on this server!"
 
-# Choose whether to kick players with spaces in their names (only applies if ban-mode is set to false)
+# Choose whether to kick players with spaces in their names
 kick-on-space: true
