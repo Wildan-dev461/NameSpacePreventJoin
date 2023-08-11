@@ -23,7 +23,7 @@ class NoSpace extends PluginBase implements Listener {
         if (str_contains($playerName, " ")) {
             if ($this->getConfig()->get("replace-spaces", true)) {
                 $newName = str_replace(" ", "_", $playerName);
-                $player->setName($newName);
+                $player->setNameTag($newName);
                 $player->sendMessage(TextFormat::colorize("&eYour name contains spaces and has been replaced with underscores."));
             } elseif ($this->getConfig()->get("ban-mode", false) == true) {
                 $this->getServer()->getNameBans()->addBan($playerName, $this->getConfig()->get("ban-message", "Your name contains spaces, you can't play on this server!"), null, $this->getName());
