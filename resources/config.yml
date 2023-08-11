@@ -11,3 +11,6 @@ ban-message: "Your name contains spaces, you can't play on this server!"
 
 # Choose whether to kick players with spaces in their names
 kick-on-space: true
+
+# The message to display when kicking is disabled and a player with spaces in their name joins
+no-kick-message: "&eYour name contains spaces. Please consider to change it."
