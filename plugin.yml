@@ -1,5 +1,6 @@
 name: NoSpace
 api: 5.0.0
-main: Wildan\NoSpace\Main
+main: wildan\nospace\NoSpace
+src-namespace-prefix: wildan\nospace
 version: 1.0.0
 author: Wildan-Dev461
