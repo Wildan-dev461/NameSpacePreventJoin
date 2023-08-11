@@ -1,0 +1,7 @@
+# Choose a player to be banned or kicked when joining server with name contains space
+ban-mode: false
+# The message display when kicking player
+# Use '&' for color instead of '§'
+kick-message: "&cYour name is contain space, please change it before login again!"
+# The message display when banning player
+ban-message: "Your name is contain space, you can't play on this server!"
