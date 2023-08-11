@@ -1,4 +1,4 @@
-# Choose a player to be banned or kicked when joining server with name contains space
+# Choose a player to be banned or kicked when login server with name contains space
 ban-mode: false
 # The message display when kicking player
 # Use '&' for color instead of '§'
