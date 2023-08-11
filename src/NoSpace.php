@@ -18,7 +18,7 @@ class NoSpace extends PluginBase implements Listener {
 
     public function onPlayerLogin(PlayerLoginEvent $event) : void {
         $player = $event->getPlayer();
-        $playerName = $player->getDisplayName();
+        $playerName = $player->getName();
 
         if (str_contains($playerName, " ")) {
             if ($this->getConfig()->get("replace-spaces", true)) {
